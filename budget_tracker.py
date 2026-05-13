@@ -53,7 +53,7 @@ def display_results(budget):
     print()
     print("--------Monthly Income--------")
     print(f"Income: ${budget['income']:.2f}")
-    print()
+    print('')
     print("--------Monthly Expenses--------")
     print(f"Rent: ${(budget['rent percent'] * budget['income']) / 100 :.2f}")
     print(f"Rent - Percent of Income: {budget['rent percent'] :.2f}%")
